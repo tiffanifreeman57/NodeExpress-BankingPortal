@@ -8,4 +8,9 @@
     </br>
     <a href="/transfer">transfer</a>
 
+
+    <%- include('summary', {account: accounts.savings}) %>
+    <%- include('summary', {account: accounts.checking}) %>
+    <%- include('summary', {account: accounts.credit}) %>
+
 <%- include('footer') %>
